@@ -35,4 +35,4 @@ EasyKiconverter 是围绕 EasyKiConverter 转换器及其衍生开源项目建�
 
 项目为 **Windows · Linux · macOS** 的受支持架构提供发布包。
 
-EasyKiConverter 使用 [GNU 通用公共许可证第三版](https://github.com/EasyKiconverter/EasyKiConverter/blob/master/LICENSE) 授权。
+EasyKiConverter 使用 GPL3.0(https://github.com/EasyKiconverter/EasyKiConverter/blob/master/LICENSE) 授权。
