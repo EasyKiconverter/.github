@@ -1,6 +1,6 @@
 # EasyKiConverter
 
-中文版本 | [English Version](README_en.md)
+简体中文 | [English](README_en.md)
 
 **面向电子工程师的开源 EDA 转换工具与基础设施。**
 
