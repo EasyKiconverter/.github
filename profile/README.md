@@ -1,35 +1,42 @@
 # EasyKiConverter
 
-**Open-source EDA library conversion tools for electronic engineers.**
+**Open-source EDA conversion tools and infrastructure for electronic engineers.**
 
-EasyKiConverter is an open-source Qt 6 / C++17 desktop and CLI application for converting LCSC and EasyEDA component data into EDA library formats.
+EasyKiconverter is the GitHub organization behind EasyKiConverter and its related open-source projects. We build tools that help engineers obtain, convert, validate, and integrate electronic component library data across EDA workflows.
 
-EasyKiConverter 是一款面向电子工程师的开源 Qt 6 / C++17 桌面与 CLI 工具，用于将 LCSC 和 EasyEDA 元件数据转换为 EDA 库格式。
+EasyKiconverter 是围绕 EasyKiConverter 转换器及其衍生项目建立的开源组织，致力于为电子工程师提供元件数据获取、格式转换、验证和集成工具。
 
-## Project
+## Current Project
 
-* [EasyKiConverter](https://github.com/EasyKiconverter/EasyKiConverter) — Main repository
+* [EasyKiConverter](https://github.com/EasyKiconverter/EasyKiConverter) — Qt 6 / C++17 desktop and CLI converter for LCSC and EasyEDA component data
 * [Documentation](https://easykiconverter.github.io/EasyKiConverter/)
 * [Releases](https://github.com/EasyKiconverter/EasyKiConverter/releases)
 * [Discussions](https://github.com/EasyKiconverter/EasyKiConverter/discussions)
 * [Contributing](https://github.com/EasyKiconverter/EasyKiConverter/blob/master/docs/developer/CONTRIBUTING_en.md)
 
-## Format Support
+## Organization Direction
 
-The latest stable release provides KiCad library export.
+The organization may host complementary projects around the converter, including:
 
-Development on the `master` branch extends the converter architecture with a shared intermediate representation and Altium Designer library export.
+* An official project website and documentation portal
+* Reusable conversion libraries and SDKs for application and automation integrations
+* Format test suites, reference fixtures, and validation tools
+* Supporting utilities for packaging, data processing, and EDA workflows
 
-当前稳定版本提供 KiCad 库导出功能。
+These projects will be announced separately when they are created and ready for use. Planned projects should not be interpreted as currently available products.
 
-`master` 开发分支正在基于统一中间表示架构扩展 Altium Designer 库导出能力。
+## Capability Boundary
 
-## Platforms
+The latest stable EasyKiConverter release provides KiCad library export.
 
-Release packages are provided for supported architectures on:
+The `master` branch is the development line for the shared intermediate representation and Altium Designer library export. Check the corresponding Release notes before relying on development-branch capabilities in a stable package.
 
-**Windows · Linux · macOS**
+当前稳定版 EasyKiConverter 提供 KiCad 库导出功能。
 
-## License
+`master` 是统一中间表示和 Altium Designer 库导出的开发分支。使用稳定安装包时，请以对应 Release 说明为准。
+
+## Platforms and License
+
+Release packages are provided for supported architectures on **Windows · Linux · macOS**.
 
 EasyKiConverter is licensed under the [GNU General Public License v3.0](https://github.com/EasyKiconverter/EasyKiConverter/blob/master/LICENSE).
