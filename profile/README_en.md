@@ -35,4 +35,4 @@ The `master` branch is the development line for the shared intermediate represen
 
 Release packages are provided for supported architectures on **Windows · Linux · macOS**.
 
-EasyKiConverter is licensed under the GPL3.0(https://github.com/EasyKiconverter/EasyKiConverter/blob/master/LICENSE).
+EasyKiConverter is licensed under the [GPL3.0](https://github.com/EasyKiconverter/EasyKiConverter/blob/master/LICENSE).
